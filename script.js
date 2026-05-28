@@ -1,9 +1,10 @@
 const paragraphElementOne = document.getElementById("paragraph1")
 const paragraphElementTwo = document.getElementById("paragraph2")
-const buttonElement = document.getElementById("")
+
+const buttonElement = document.getElementById("click-me")
 
 
-var isVisible = true; 
+var isVisible = true;
 
 function paragraphVisble(){
 
@@ -22,6 +23,4 @@ function paragraphVisble(){
 
 
 
-
-
-buttonElement
+buttonElement.addEventListener("click", paragraphVisble)
